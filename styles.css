@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    background-color: #000;
+    
+}
+
+.icon{
+    width:10px;
+    height:10px;
+    background-color: white;
+}
+
+
+.content-container{
+    width:230px;
+    background-color: black;
+    height: 100vh;
+    
+}
+
+h1{
+    margin-left: 13px;
+}
+
+.content-container .content{
+    display: flex;
+  
+    font-size: 5px;
+    font-weight: bold;
+    font-family: arial;
+    color:#fff;
+    padding-top: 12px;
+    
+
+}
+
+button{
+width: 50%;
+height: 32px;
+border-radius: 10px;
+background-color: rgb(68, 116, 247);
+color: white;
+margin: 12px 0;
+border:solid 0.5px  rgb(68, 116, 247);
+
+}
+
+.content .bottom{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom{
+    color: white;
+    font-size: 5px;
+    font-family: arial;
+    display: flex;
+    margin-top:320px;
+    padding-bottom: 12px;
+    
+    
+}
+.name{
+    font-weight: bolder;
+}
+
+.np{
+    margin-left: 11px;
+}
+
+.hone-and-p{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom span{
+    margin-left: 12px;
+    
+}
+
+.grey{
+    color: grey;
+    margin-top: 4px;
+}
+
+.bottom img{
+    border-radius: 50%;
+    width:12px;
+    height:12px
+  
+}
+
+.container-two{
+    color: white;
+    background-color: #000;
+    width:40%;
+    border:solid 0.5px #fff;
+    padding: 10x 2px;
+
+}
+
+.container-two .header{
+    padding-left: 12px;
+}
+
+.container-two h3{
+ color:#fff;
+ font-size: 15px;
+ font-family: arial;
+}
+
+.container-two .two{
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+    font-size: 5px;
+    font-family: arial;
+}
+
+.container-two .hap p{
+
+    width:100%;
+    border-bottom: solid 2px ;
+    color: rgb(68, 116, 247);
+    padding: 4px 0;
+    border-radius:1.5px
+
+
+}
+
+.container-two  .greyheading {
+    color: grey;
+}
+
+
+.three{
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+    font-family: arial;
+    color: grey;
+    margin-top:15px;
+    padding-left: 12px;
+
+
+}
+
+.three span{
+    margin-left: 5px;
+}
+.three img{
+    width:24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+
+.four{
+   display: flex;
+   justify-content: space-between;
+}
+
+.four .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 28px;
+ }
+ .four .icons .content{
+    margin-left: 13px;
+ }
+
+ .four .btn{
+    width:55px;
+    height:23px;
+    margin-right: 12px;
+ }
+
+ .five{
+    margin-left: 12px;
+
+ }
+ .five .parag{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:12px;
+ }
+
+ .five h2, p{
+    color: #fff;
+    font-family: arial;
+    padding:5px 0 ;
+    
+ }
+ 
+
+ .five a {
+    text-decoration: none;
+    color:rgb(63, 57, 242);
+ }
+
+ .five .btn{
+    width:73px;
+    background-color: #fff;
+    color:#000;
+
+ }
+
+ .pa{
+    font-size: 8px;
+    line-height:15px;
+ }
+
+ .five .btn{
+    width:73px;
+    background-color: #fff;
+    color:#000;
+    border:solid #fff
+
+ }
+
+ .last{
+    display: flex;
+    font-size: 8px;
+    padding-top: 32px;
+    padding-left: 12px;
+    
+ }
+
+ .last h3 span{
+    color:grey;
+    font-size:5px ;
+ }
+ .last h3{
+    font-size:7px ;
+ }
+ .fle{
+    display: flex;
+ }
+ .fle img{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+ }
+ .conte{
+    margin-left:12px;
+    margin-top:3px
+
+ }
+
+ .fle ul li{
+    margin-top: 3px;
+    
+ }
+
+ .last-last{
+    display: flex;
+    justify-content: flex-end;
+     
+    margin-left:43%;
+    font-size:15px ;
+ }
+
+ .search-class input{
+    display: flex;
+    align-items: center;
+    width:245px;
+    height:30px;
+    border-radius: 12px;
+    background-color: rgb(46, 49, 59);
+    border:solid rgb(46, 49, 59);
+    text-align: center;
+    margin-left: 12px;
+    
+ }
+
+ .nameo{
+    background-color: rgb(46, 49, 59);
+    margin-top: 13px;
+    border-radius: 12px;
+    margin-left: 12px;
+ }
+
+ .nameo h3{
+    color: #fff;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+ }
+ .nameo h4{
+    color: #fff;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+ }
+
+ 
+ .name .on{
+    color: grey;
+    opacity:0.5;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    font-size: 14px;
+ }
+ .name .on{
+    color: grey;
+    opacity:0.5;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    font-size: 14px;
+ }
+ .name .twospan{
+  padding-left: 30px;
+ }
+
+ .name .gre{
+    color: grey;
+    opacity:0.5;
+    font-family: arial;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    font-size: 14px;
+ }
+
+.fle .bana{
+    width: 340px;
+    height: 340px;
+    border-radius: 0;
+    margin-top: 5px;
+}
+
+.hr{
+    opacity: 0.1;
+}
+
+
